@@ -1,11 +1,11 @@
 # beauty box lint rules
 
-[![Build Status](https://shields.io/github/workflow/status/Beauty-Box/flutter_bb_lint_rules/Analysis?logo=github&logoColor=white)](https://github.com/Beauty-Box/flutter_bb_lint_rules)
+<!-- [![Build Status](https://shields.io/github/workflow/status/Beauty-Box/flutter_bb_lint_rules/Analysis?logo=github&logoColor=white)](https://github.com/Beauty-Box/flutter_bb_lint_rules)
 [![Pub Version](https://img.shields.io/pub/v/bb_lint_rules?logo=dart&logoColor=white)](https://pub.dev/packages/bb_lint_rules)
 [![Pub Likes](https://badgen.net/pub/likes/bb_lint_rules)](https://pub.dev/packages/bb_lint_rules)
 [![Pub popularity](https://badgen.net/pub/popularity/bb_lint_rules)](https://pub.dev/packages/bb_lint_rules/score)
 ![Dart Platform](https://badgen.net/pub/dart-platform/bb_lint_rules)
-![Flutter Platform](https://badgen.net/pub/flutter-platform/bb_lint_rules)
+![Flutter Platform](https://badgen.net/pub/flutter-platform/bb_lint_rules) -->
 
 <!-- This package is part of the [SurfGear](https://github.com/Beauty-Box/SurfGear) toolkit made by [beautybox](https://beautybox.ru). -->
 
