@@ -1,0 +1,12 @@
+name: bb_lint_rules
+version: 1.5.0
+description: Lint rules for "Beautybox" company for Dart and Flutter projects.
+repository: "https://github.com/Beauty-Box/flutter-bb-lint-rules"
+issue_tracker: "https://github.com/Beauty-Box/flutter-bb-lint-rules/issues"
+
+dependencies:
+  dart_code_metrics: ^4.0.0-dev.2
+  flutter_lints: ^1.0.4
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
