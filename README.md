@@ -24,7 +24,7 @@ dependencies:
   bb_lint_rules: $currentVersion$
 ```
 
-<p>At this moment, the current version of <code>bb_lint_rules</code> is <a style="display: inline-block;" href="https://pub.dev/packages/bb_lint_rules"><img style="vertical-align:bottom;" src="https://img.shields.io/pub/v/bb_lint_rules.svg" alt="bb_lint_rules version"></a>.</p>
+<!-- <p>At this moment, the current version of <code>bb_lint_rules</code> is <a style="display: inline-block;" href="https://pub.dev/packages/bb_lint_rules"><img style="vertical-align:bottom;" src="https://img.shields.io/pub/v/bb_lint_rules.svg" alt="bb_lint_rules version"></a>.</p> -->
 
 ## Example
 
