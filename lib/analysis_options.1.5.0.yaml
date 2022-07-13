@@ -51,31 +51,31 @@ dart_code_metrics:
     - avoid-unnecessary-setstate
     - binary-expression-operand-order
     - no-equal-then-else
-    - prefer-trailing-comma
-    - member-ordering-extended:
-        alphabetize: false # TODO set true after code-dart_code_metrics update
-        order:
-          - public-static-const-fields
-          - private-static-const-fields
-          - public-static-final-fields
-          - private-static-final-fields
-          - public-static-fields
-          - private-static-fields
-          - public-final-fields
-          - private-final-fields
-          - public-fields
-          - public-getters-setters
-          - private-fields
-          - private-getters-setters
-          - constructors
-          - named-constructors
-          - factory-constructors
-          - overridden-methods
-          - public-static-methods
-          - public-methods
-          - protected-methods
-          - private-static-methods
-          - private-methods
+    # - prefer-trailing-comma
+    # - member-ordering-extended:
+    #     alphabetize: false # TODO set true after code-dart_code_metrics update
+    #     order:
+    #       - public-static-const-fields
+    #       - private-static-const-fields
+    #       - public-static-final-fields
+    #       - private-static-final-fields
+    #       - public-static-fields
+    #       - private-static-fields
+    #       - public-final-fields
+    #       - private-final-fields
+    #       - public-fields
+    #       - public-getters-setters
+    #       - private-fields
+    #       - private-getters-setters
+    #       - constructors
+    #       - named-constructors
+    #       - factory-constructors
+    #       - overridden-methods
+    #       - public-static-methods
+    #       - public-methods
+    #       - protected-methods
+    #       - private-static-methods
+    #       - private-methods
 
 linter:
   rules:
@@ -88,7 +88,7 @@ linter:
     unnecessary_late: true
 
     # Error rules.
-    always_use_package_imports: true
+    # always_use_package_imports: true
     avoid_dynamic_calls: true
     avoid_empty_else: true
     avoid_print: true
@@ -139,7 +139,7 @@ linter:
     avoid_js_rounded_ints: true
     avoid_multiple_declarations_per_line: true
     avoid_null_checks_in_equality_operators: true
-    avoid_positional_boolean_parameters: true
+    # avoid_positional_boolean_parameters: true
     avoid_private_typedef_functions: true
     avoid_redundant_argument_values: true
     avoid_renaming_method_parameters: true
@@ -153,12 +153,14 @@ linter:
     avoid_types_on_closure_parameters: true
     avoid_unnecessary_containers: true
     avoid_unused_constructor_parameters: true
-    avoid_void_async: true
+    # Avoid async functions that return void.
+    # avoid_void_async: true
     await_only_futures: true
     camel_case_extensions: true
     camel_case_types: true
     cascade_invocations: true
-    constant_identifier_names: true
+    # Prefer using lowerCamelCase for constant names.
+    # constant_identifier_names: true
     curly_braces_in_flow_control_structures: true
     deprecated_consistency: true
     # directives_ordering: true
