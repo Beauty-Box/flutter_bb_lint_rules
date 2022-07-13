@@ -12,8 +12,8 @@ on:
 
 jobs:
   analysis:
-    uses: surfstudio/flutter-ci-workflows/.github/workflows/analysis.yml@main
+    uses: Beauty-Box/flutter-ci-workflows/.github/workflows/analysis.yml@main
 
   run_example_app:
     needs: analysis
-    uses: surfstudio/flutter-ci-workflows/.github/workflows/run_dart_example_app.yml@main
+    uses: Beauty-Box/flutter-ci-workflows/.github/workflows/run_dart_example_app.yml@main
